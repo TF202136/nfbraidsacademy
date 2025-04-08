@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💇‍♀️ NF Braids Academy
 
-## Getting Started
+Transforma o teu talento em liberdade financeira com o nosso curso completo de tranças!
 
-First, run the development server:
+## ✨ Sobre o Projeto
+
+Esta plataforma foi criada para proporcionar uma experiência profissional e moderna para quem deseja aprender a trançar com propósito. Aqui, as alunas podem:
+
+- Conhecer todos os benefícios do curso
+- Ver depoimentos reais
+- Esclarecer dúvidas frequentes
+- Comprar o curso com checkout seguro via Stripe
+- Aceder a uma área de cliente privada com todos os módulos
+
+## 🚀 Tecnologias Utilizadas
+
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [Stripe](https://stripe.com/) para pagamentos
+- [Firebase Auth & Firestore](https://firebase.google.com/) para autenticação e base de dados
+- [Framer Motion](https://www.framer.com/motion/) para animações
+- [Lucide Icons + React Icons](https://lucide.dev/)
+
+## 🛒 Como Comprar o Curso
+
+1. Clica no botão **"Comprar Agora"** ou **"Inscrever-me"**
+2. Serás redirecionado para um checkout seguro com Stripe
+3. Após o pagamento:
+   - Recebes dois e-mails:
+     - Confirmação da compra
+     - Acesso à área de cliente com os próximos passos
+4. Acede à tua área privada e começa a aprender!
+
+## 📁 Estrutura de Pastas
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/app
+  /(landing)       # Página principal
+  /checkout        # Página de pagamento
+  /dashboard       # Área do cliente (privada)
+  /admin           # Painel do administrador
+  /api             # Rotas da API
