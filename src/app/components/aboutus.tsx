@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
 
 export default function AboutUs() {
   return (
-    <section className="bg-white dark:bg-zinc-900 py-20 px-6 relative">
+    <section className="bg-gradient-to-b from-white to-gray-100 dark:from-gray-950 dark:to-gray-900 py-20 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Seção de Texto */}
         <motion.div
@@ -38,9 +39,12 @@ export default function AboutUs() {
             renda, construir sua própria marca e alcançar a liberdade
             financeira, este curso é para você!
           </p>
-          <button className="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 px-6 py-4 rounded-lg text-white font-semibold shadow-xl hover:scale-105 transition-transform">
-            Comece Sua Jornada Agora
-          </button>
+          <Button
+            size="lg"
+            className="bg-yellow-500 hover:bg-yellow-400 text-black text-xl font-bold px-10 py-6 rounded-2xl shadow-2xl shadow-yellow-300 transition-all duration-300 transform hover:scale-105 active:scale-95"
+          >
+            Comece a sua jornada
+          </Button>
         </motion.div>
 
         {/* Imagem da Mentora (opcional) */}

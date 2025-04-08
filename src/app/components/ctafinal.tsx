@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function CtaFinal() {
   return (
-    <section className="bg-gradient-to-b from-yellow-50 to-white dark:from-yellow-900/20 dark:to-gray-950 py-24 px-6">
+    <section className="bg-gradient-to-b from-white to-gray-100 dark:from-gray-950 dark:to-gray-900 py-20 px-6">
       <div className="max-w-5xl mx-auto text-center space-y-8">
         {/* Título */}
         <motion.h2

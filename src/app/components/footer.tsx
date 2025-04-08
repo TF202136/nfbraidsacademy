@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-gray-100 to-white dark:from-gray-900 dark:to-black text-gray-700 dark:text-gray-300 pt-16 pb-8 px-6">
+    <footer className="bg-gradient-to-b from-white to-gray-100 dark:from-gray-950 dark:to-gray-900 py-20 px-6">
       <div className="max-w-6xl mx-auto space-y-12">
         <div className="grid md:grid-cols-3 gap-10 text-center md:text-left">
           {/* Marca */}
