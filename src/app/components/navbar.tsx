@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils"; // Certifique-se de ter essa função utilitá
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <header className="sticky top-0 z-50 bg-[#f5f5dc]/90 backdrop-blur-lg border-b border-[#e6e2d3] dark:bg-black/80 dark:border-gray-800 transition-all duration-500 shadow-sm">
